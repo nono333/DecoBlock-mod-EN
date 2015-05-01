@@ -61,7 +61,7 @@ function updateVersion() {
                 var ru  = new java.lang.Runnable() {
                     run: function() {
                         try {
-                            var urls = new java.net.URL("https://raw.githubusercontent.com/thejaustin/ModPE/master/Mini%20Blocks%20Mod");
+                            var urls = new java.net.URL("https://raw.githubusercontent.com/nono333/DecoBlock-mod-EN/master/README.md");
                             var check = urls.openConnection();
                             check.setRequestMethod("GET");
                             check.setDoOutput(true);
