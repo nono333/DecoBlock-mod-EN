@@ -1,5 +1,5 @@
-//test
-var version="0.6.1";
+
+var version="0.6.2";
 var checkForUpdate=false;
 var updateWindow=false; 
 var newUpdate;
@@ -140,7 +140,7 @@ function updateVersion() {
 function newLevel() {
 var redstoneblock = true;
 clientMessage(ChatColor.AQUA + "[DBM]" + ChatColor.GREEN + " Hello " + ChatColor.GREEN + getOptionAttr("mp_username"));
-clientMessage(ChatColor.AQUA + "[DBM]" + ChatColor.GREEN + " DecoBlock Mod 0.5.0 by nono");
+clientMessage(ChatColor.AQUA + "[DBM]" + ChatColor.GREEN + " DecoBlock Mod 0.6.2 by nono");
 clientMessage(ChatColor.AQUA + "[DBM]" + ChatColor.GREEN + " /Options");
 clientMessage(ChatColor.AQUA + "[DBM]" + ChatColor.GREEN + " GRAPHIQUE & DESERT" + ChatColor.RED + " UPDATE");
 
