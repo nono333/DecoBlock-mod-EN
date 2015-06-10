@@ -1,5 +1,5 @@
 
-var version="0.6.2";
+var version="Papa edition";
 var checkForUpdate=false;
 var updateWindow=false; 
 var newUpdate;
